@@ -1,0 +1,40 @@
+.dialog-mask{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #ccc;
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+.dialog-box{
+	width: 500px;
+	height: 300px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-150px;
+	margin-left:-250px;
+}
+.dialog-title{
+	width:100%;
+	height:30px;
+	background-color: #000;
+	line-height:30px;
+}
+.dialog-title-item{
+	color:#fff;
+	margin-left:5px;
+}
+.dialog-title-close{
+	color:#fff;
+	float:right;
+	margin-right: 5px;
+	cursor:pointer;
+}
+.dialog-content{
+	width:100%;
+	height:270px;
+	background-color: #fff;
+}
