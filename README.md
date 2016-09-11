@@ -1,2 +1,2 @@
 # requirejs
-some exercise about requirejs
+some exercises about requirejs
